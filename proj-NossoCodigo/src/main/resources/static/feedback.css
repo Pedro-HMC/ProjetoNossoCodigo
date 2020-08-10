@@ -1,0 +1,75 @@
+
+.menu{
+background-color: #302384;
+height: 30px;
+color: #ffffff;
+font-family: Orbitron;}
+
+
+
+img {
+    max-height: 500px;
+    max-width: 1000px;
+    height: auto;
+    width: auto;
+    margin-right: 30px;
+}
+
+body{
+    background-color: #D3BEE4;
+}
+
+
+.formulario {
+    background-color: #6F4A8E;
+    margin-right: 2px;
+    position: fixed;
+    width: 800px;
+    border-radius: 1em;
+}
+
+
+
+.feedback {
+    margin-top: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: Orbitron;
+    color: #F6F0FF;
+}
+
+
+.separacao{
+    height: 3px;
+    background-color: #F6F0FF;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #C4C4C4;
+    border-radius: 1em;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+.button :hover {
+    padding-left: 90px; 
+    width: 10px;
+    color: #302384; 
+    background-color: black;
+    background-color: #C79BD5;
+    color:#000000;
+    border: 2px solid ;
+
+}
+button {
+    margin-left: .5em;
+}
