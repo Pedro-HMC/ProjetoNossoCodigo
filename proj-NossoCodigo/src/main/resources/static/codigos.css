@@ -1,0 +1,93 @@
+.bar {
+    background-color: #6F4A8E;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Orbitron';
+    width: 100%;
+    margin: 0em;
+}
+
+.tag {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.voltar {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.titulo {
+    padding: 0em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #D3BEE4;
+    text-align: center;
+}
+
+.newcode {
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+.block {
+    display: block;
+}
+
+div {
+    word-wrap: break-word;
+}
+
+.descbox {
+    border-style: solid;
+    border-color: #D3BEE4;
+    max-height: 500px;
+    height: auto;
+}
+
+.code {
+    height: 150px;
+}
+
+.codebox {
+    border-style: solid;
+    border-color: #D3BEE4;
+    background-color: white;
+    max-height: 600px;
+    height: auto;
+}
+
+pre {
+    max-height: 550px;
+    height: auto;
+    white-space: pre-wrap;
+}
+
+input[type=text],
+textarea {
+    width: 490px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #D3BEE4;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: #6F4A8E;
+}
+
+input[type=submit]:hover {
+    background-color: #C79BD5;
+    color: #000000;
+    border: 2px solid;
+}
+
+.novobicho {
+    font-family: 'Montserrat', sans-serif;
+}
