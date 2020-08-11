@@ -1,8 +1,9 @@
 
 .menu{
 background-color: #302384;
-height: 30px;
+height: 40px;
 color: #ffffff;
+width: 1350px;
 font-family: Orbitron;}
 
 
@@ -60,16 +61,97 @@ input, textarea {
     border: 1px solid #999;
 }
 
-.button :hover {
-    padding-left: 90px; 
-    width: 10px;
-    color: #302384; 
+input[type=submit], input[type=reset] {
     background-color: black;
-    background-color: #C79BD5;
-    color:#000000;
-    border: 2px solid ;
-
+    color: #6F4A8E;
+    font-size: medium;
+    width: 100px;
+    height: 30px;
 }
+
+input[type=submit]:hover{
+    background-color: #C79BD5;
+    color: #000000;
+    border: 2px solid;
+}
+
+input[type=reset]:hover {
+    background-color: #C79BD5;
+    color: #000000;
+    border: 2px solid;
+}  
+
 button {
     margin-left: .5em;
+}
+
+.comentarios{
+    
+    border-top: 1px solid #424255;
+    
+    color: #000000;
+    font-size: large;
+    width: 100%;
+    height: 60px;
+    
+}
+
+.circle img{
+    position: relative;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+
+.circle {
+    background-color: #C79BD5;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 4px;
+  }
+.secao{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+}
+
+    
+.icone-scroll{
+    position: absolute;
+    bottom: 5em;
+    width: 50px;
+    height: 50px;
+    background-color: #0E0325;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+    
+.scroll{
+    width: 15px;
+    height: 15px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+}
+    
+.scroll-next {
+    transform: rotate(45deg);
+    margin: 14px 0 0 16.5px;
+}
+
+p{
+    font-size: x-large;
+    font-family: orbitron;
+    color: #181818;
+}
+
+#pagina2{
+    margin-top: 5px;
 }

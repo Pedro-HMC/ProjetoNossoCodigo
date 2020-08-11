@@ -1,4 +1,4 @@
-package com.projeto.feedback;
+package com.undefined.projetoNossoCodigo;
 
 import org.springframework.data.repository.CrudRepository;
 
