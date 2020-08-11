@@ -1,0 +1,22 @@
+
+.voltar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.backesquerdo {
+    background-color: #D3BEE4;
+    width: 100%;
+    
+}
+
+
+.formulario {
+    background-color: #6F4A8E;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+   
+}
