@@ -1,0 +1,199 @@
+.tela {
+    background-color: #EBEBEB;
+    font-family: 'Orbitron', sans-serif;
+   
+}
+
+.menu {
+ background-color: #C79BD5;
+  padding: 0px 0px;
+  
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+    top: -1;
+    max-width: 100%;
+    margin-left: 0px;
+    
+}
+
+.icone{
+  width: 4.4vw ;
+  height: 4.4vw;
+ }
+
+.icone:hover{
+    transform: scale(1.2);
+}
+
+.html{
+    width: 30%;
+}
+
+.html:hover{
+    transform: scale(1.2);
+}
+
+.java{
+    width: 30%;
+}
+
+.java:hover{
+    transform: scale(1.2);
+}
+
+.javascript{
+    width: 30%;
+}
+
+.javascript:hover{
+    transform: scale(1.2);
+}
+
+.sql{
+    width: 30%;
+}
+
+.sql:hover{
+    transform: scale(1.2);
+}
+
+
+.titulo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    
+}
+
+.botao{
+    display:inline-block;
+    position:relative;
+
+}
+
+.botao_botao-login button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+
+}
+
+.botao_login:hover{
+    background-color: #C79BD5;
+    color:#000000;
+    border: 2px solid ;
+}
+
+#divBusca{
+    background-color:#6F4A8E;
+    border:solid 5px #6F4A8E;
+    border-radius:50px;
+    width:25em;
+    padding:2px;
+    margin-top: 60px;
+    
+  }
+  
+#txtBusca{
+    border-radius:40px;
+    border:solid 1px #6F4A8E;
+    width: 22em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    margin-top: 60px;
+    margin-left: 2em;
+    color: #0E0325;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+h4{
+    margin-top: 30px;
+    margin-left: 2em;
+    color: #4B1578;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+button{
+    background-color: black ;
+    color: #6F4A8E;
+    margin-top: 20px;
+    
+}
+
+div {
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#pagina2{
+    background-color: #C79BD5;
+}
+    
+#pagina3{
+    background-color: #E5E5E5;
+}
+    
+.feed{
+    margin-left: 70%;
+    margin-top: 50px;
+    object-fit: cover;
+    background-color: #fff;
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+}
+
+.secao{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+}
+
+    
+.icone-scroll{
+    position: absolute;
+    bottom: 5em;
+    width: 50px;
+    height: 50px;
+    background-color: #0E0325;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+    
+.scroll{
+    width: 15px;
+    height: 15px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+}
+    
+.scroll-next {
+    transform: rotate(45deg);
+    margin: 14px 0 0 16.5px;
+}
+    
+.scroll-top {
+    transform: rotate(225deg);
+    margin: 19px 0 0 17px;
+}
+    
+.scroll-top + .scroll-top{
+    top: -15px;
+    margin-top: 0;
+}
+    
+
