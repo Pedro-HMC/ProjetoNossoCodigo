@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+
+.menu{
+background-color: #302384;
+height: 40px;
+color: #ffffff;
+width: 100%;
+font-family: Orbitron;
+}
+
+
+=======
 .menu {
     background-color: #302384;
     height: 40px;
@@ -5,6 +17,7 @@
     width: 100%;
     font-family: Orbitron;
 }
+>>>>>>> f4e32aa2d00a8424156283a3ccef39618e0ac97d
 
 img {
     max-height: 500px;
@@ -32,6 +45,7 @@ body {
     font-size: large;
     font-family: Orbitron;
     color: #F6F0FF;
+    width: 100%;
 }
 
 .separacao {
@@ -50,7 +64,7 @@ form {
 input,
 textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 100%;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #999;
