@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-
-.menu{
-background-color: #302384;
-height: 40px;
-color: #ffffff;
-width: 100%;
-font-family: Orbitron;
-}
-
-
-=======
 .menu {
     background-color: #302384;
     height: 40px;
@@ -17,7 +5,6 @@ font-family: Orbitron;
     width: 100%;
     font-family: Orbitron;
 }
->>>>>>> f4e32aa2d00a8424156283a3ccef39618e0ac97d
 
 img {
     max-height: 500px;
