@@ -22,7 +22,9 @@ public class exibeJcode {
     
         "<div class=\" row bar \">" + 
             "<div class=\"col-sm-10\">" +
-                "<p class=\"tag\">Tags:</p>" +
+            "<p class=\"tag\">Tags:" +
+            "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
+            "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
                 "<p class=\"voltar\">Voltar</p>" +
@@ -66,21 +68,23 @@ public class exibeJcode {
             "<div class=\"row\">"+
                 "<div class=\"col\"></div>"+
                 "<div class=\"col-\">"+
-                    "<form action=\"/nossoCodigo/delete\" method=\"POST\">"+
-                        "<p><input type=\"submit\" id=\"" + j.getId() + " \" name=\"id\" value=\"Deletar Código\"/></p>"+
+                    "<form action=\"/nossoCodigo/deleteJ\" method=\"POST\">"+
+                        "<input type=\"hidden\" name=\"id\" value=" + j.getId()  + ">" +
+                        "<input type=\"submit\" value=\"Deletar Código\">"+
                     "</form>"+
                 "</div>" +
                 "<div class=\"col\"></div>"+
             "</div>" + 
             "<br>"
             ;
+
         }
         html = html + 
         "<div class=\"row\">" +
             "<div class=\"col\"></div>" +
             "<div class=\"col-sm-8\">"+
-                "<form action=\"/nossoCodigo/codigosJS\" method=\"post\">"+
-                    "<div class=\"row\">"+
+                "<form action=\"/nossoCodigo/codigos2\" method=\"post\">"+
+                    "<div id=\"scroll1\" class=\"row\">"+
                         "<div class=\"col\"></div>" +
                         "<div class=\"col-\">INSIRA UM NOVO CÓDIGO</div>"+
                         "<div class=\"col\"></div>" +

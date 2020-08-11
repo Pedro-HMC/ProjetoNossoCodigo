@@ -23,7 +23,7 @@ public class exibeJS {
         "<div class=\" row bar \">" + 
             "<div class=\"col-sm-10\">" +
                 "<p class=\"tag\">Tags:" +
-                "<a href=\"#scroll1\"></a>" +
+                "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
                 "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
@@ -68,7 +68,7 @@ public class exibeJS {
             "<div class=\"row\">"+
                 "<div class=\"col\"></div>"+
                 "<div class=\"col-\">"+
-                    "<form action=\"/nossoCodigo/delete\" method=\"POST\">"+
+                    "<form action=\"/nossoCodigo/deleteJS\" method=\"POST\">"+
                         "<input type=\"hidden\" name=\"id\" value=" + js.getId()  + ">" +
                         "<input type=\"submit\" value=\"Deletar Código\">"+
                     "</form>"+
@@ -82,7 +82,7 @@ public class exibeJS {
         "<div class=\"row\">" +
             "<div class=\"col\"></div>" +
             "<div class=\"col-sm-8\">"+
-                "<form action=\"/nossoCodigo/codigosJS\" method=\"post\">"+
+                "<form action=\"/nossoCodigo/codigos3\" method=\"post\">"+
                     "<div id=\"scroll1\" class=\"row\">"+
                         "<div class=\"col\"></div>" +
                         "<div class=\"col-\">INSIRA UM NOVO CÓDIGO</div>"+

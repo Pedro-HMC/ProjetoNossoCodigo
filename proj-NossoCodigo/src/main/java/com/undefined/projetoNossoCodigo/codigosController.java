@@ -1,6 +1,10 @@
 package com.undefined.projetoNossoCodigo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -51,7 +55,7 @@ public class codigosController {
         return exibeCodigos.mostraCodigos(tagRepository.findAll());
     }
     
-    @PostMapping("/codigosJ")
+    @PostMapping("/codigos2")
     public @ResponseBody String addNovoJcode(@RequestParam String nome, @RequestParam String conteudo, @RequestParam String descricao){
 
         jcode j = new jcode();
@@ -68,7 +72,7 @@ public class codigosController {
         return exibeJcode.mostraJcode(jcodeRepository.findAll());
     }
 
-    @PostMapping("/codigosJS")
+    @PostMapping("/codigos3")
     public @ResponseBody String addNovoJS(@RequestParam String nome, @RequestParam String conteudo, @RequestParam String descricao){
 
         javaS js = new javaS();
@@ -85,7 +89,7 @@ public class codigosController {
         return exibeJS.mostraJS(javaSRepository.findAll());
     }
 
-    @PostMapping("/codigosSQL")
+    @PostMapping("/codigos4")
     public @ResponseBody String addNovoSQL(@RequestParam String nome, @RequestParam String conteudo, @RequestParam String descricao){
 
         mySQL sql = new mySQL();
@@ -102,7 +106,7 @@ public class codigosController {
         return exibeMySQL.mostraSQL(mySQLRepository.findAll());
     }
 
-    @PostMapping("/codigosCSS")
+    @PostMapping("/codigos5")
     public @ResponseBody String addNovoCSS(@RequestParam String nome, @RequestParam String conteudo, @RequestParam String descricao){
 
         css cs = new css();
@@ -119,10 +123,42 @@ public class codigosController {
         return exibeCSS.mostraCSS(cssRepository.findAll());
     }
 
-    @PostMapping("/delete")
-    public @ResponseBody String deletarCodigo(@RequestParam Integer id){
+    @PostMapping("/deleteH")
+    public @ResponseBody String deletarCodigoH(@RequestParam Integer id){
+        tagRepository.deleteById(id);
+        return exibeCodigos.mostraCodigos(tagRepository.findAll());
+    }
+    @PostMapping("/deleteCS")
+    public @ResponseBody String deletarCodigoCS(@RequestParam Integer id){
+        cssRepository.deleteById(id);
+        return exibeCSS.mostraCSS(cssRepository.findAll());
+    }
+    @PostMapping("/deleteJ")
+    public @ResponseBody String deletarCodigoJ(@RequestParam Integer id){
+        jcodeRepository.deleteById(id);
+        return exibeJcode.mostraJcode(jcodeRepository.findAll());
+    }
+    @PostMapping("/deleteJS")
+    public @ResponseBody String deletarCodigoJS(@RequestParam Integer id){
         javaSRepository.deleteById(id);
-        return "haha";
-    } 
+        return exibeJS.mostraJS(javaSRepository.findAll());
+    }
+    @PostMapping("/deleteSQL")
+    public @ResponseBody String deletarCodigo(@RequestParam Integer id){
+        mySQLRepository.deleteById(id);
+        return exibeMySQL.mostraSQL(mySQLRepository.findAll());
+    }
+
+    @Configuration
+    @EnableWebSecurity
+    public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+    protected void configure(HttpSecurity security) throws Exception
+    {
+     security.httpBasic().disable();
+     security.csrf().disable();
+    }
+}
 
 }

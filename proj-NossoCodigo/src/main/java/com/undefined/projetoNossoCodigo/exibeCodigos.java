@@ -22,7 +22,9 @@ public class exibeCodigos {
     
         "<div class=\" row bar \">" + 
             "<div class=\"col-sm-10\">" +
-                "<p class=\"tag\">Tags:</p>" +
+            "<p class=\"tag smooth-scroll list-unstyled\">Tags:" +
+            "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
+            "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
                 "<p class=\"voltar\">Voltar</p>" +
@@ -55,7 +57,7 @@ public class exibeCodigos {
                         "<h2>Descrição</h2>"+
                     "</div>"+
                     "<div class=\"row\">"+
-                        "<div class=\"col descbox block\">" +
+                    "<div class=\"col codebox block\">"+
                            " <pre>" + formataDados(t.getDescricao()) + "</pre>"+
                         "</div>"+
                     "</div>"+ 
@@ -66,8 +68,9 @@ public class exibeCodigos {
             "<div class=\"row\">"+
                 "<div class=\"col\"></div>"+
                 "<div class=\"col-\">"+
-                    "<form action=\"/nossoCodigo/delete\" method=\"POST\">"+
-                        "<p><input type=\"submit\" id=\"" + t.getId() + " \" name=\"id\" value=\"Deletar Código\"/></p>"+
+                    "<form action=\"/nossoCodigo/deleteH\" method=\"POST\">"+
+                        "<input type=\"hidden\" name=\"id\" value=" + t.getId()  + ">" +
+                        "<input type=\"submit\" value=\"Deletar Código\">"+
                     "</form>"+
                 "</div>" +
                 "<div class=\"col\"></div>"+
@@ -79,8 +82,8 @@ public class exibeCodigos {
         "<div class=\"row\">" +
             "<div class=\"col\"></div>" +
             "<div class=\"col-sm-8\">"+
-                "<form action=\"/nossoCodigo/codigosJS\" method=\"post\">"+
-                    "<div class=\"row\">"+
+                "<form action=\"/nossoCodigo/codigos1\" method=\"post\">"+
+                    "<div id=\"scroll1\" class=\"row\">"+
                         "<div class=\"col\"></div>" +
                         "<div class=\"col-\">INSIRA UM NOVO CÓDIGO</div>"+
                         "<div class=\"col\"></div>" +
