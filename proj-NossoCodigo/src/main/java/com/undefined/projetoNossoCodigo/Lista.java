@@ -14,10 +14,12 @@ public class Lista {
 
     "<body  style=\"background-color: #D3BEE4;\">"+
         "<div id=\"pagina1\">"+
-            "<div style=\"margin-bottom:10px;\" class=\"menu row\">" +
+        "<div class=\"menu\">" +
+            "<div style=\"margin-bottom:10px;\" class=\" row\">" +
                 "<div class=\"col-sm-1\"></div>" +
                 "<div class=\"col-sm-2\">Voltar</div>" +
             "</div>" +
+        "</div>"+
             "<div class=\"feedback row\">" +
                     "<div class=\"col-sm-6\">"+
                         "<img src=\"/feedback.png\">"+
