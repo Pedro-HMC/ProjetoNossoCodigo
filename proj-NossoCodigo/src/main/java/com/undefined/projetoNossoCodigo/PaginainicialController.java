@@ -14,15 +14,4 @@ public class PaginainicialController {
     public String paginainicial(){
         return "/Paginainicial";
     }
-    @Configuration
-    @EnableWebSecurity
-    public class SecurityConfig extends WebSecurityConfigurerAdapter {
-
-    @Override
-    protected void configure(HttpSecurity security) throws Exception
-    {
-     security.httpBasic().disable();
-     security.csrf().disable();
-    }
-  }
 }
