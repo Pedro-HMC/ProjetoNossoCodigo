@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .menu{
 background-color: #302384;
@@ -8,6 +9,15 @@ font-family: Orbitron;
 }
 
 
+=======
+.menu {
+    background-color: #302384;
+    height: 40px;
+    color: #ffffff;
+    width: 100%;
+    font-family: Orbitron;
+}
+>>>>>>> f4e32aa2d00a8424156283a3ccef39618e0ac97d
 
 img {
     max-height: 500px;
@@ -17,10 +27,9 @@ img {
     margin-right: 30px;
 }
 
-body{
+body {
     background-color: #D3BEE4;
 }
-
 
 .formulario {
     background-color: #6F4A8E;
@@ -29,8 +38,6 @@ body{
     width: 800px;
     border-radius: 1em;
 }
-
-
 
 .feedback {
     margin-top: 40px;
@@ -41,8 +48,7 @@ body{
     width: 100%;
 }
 
-
-.separacao{
+.separacao {
     height: 3px;
     background-color: #F6F0FF;
 }
@@ -55,7 +61,8 @@ form {
     border-radius: 1em;
 }
 
-input, textarea {
+input,
+textarea {
     font: 1em sans-serif;
     width: 100%;
     -moz-box-sizing: border-box;
@@ -63,7 +70,8 @@ input, textarea {
     border: 1px solid #999;
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit],
+input[type=reset] {
     background-color: black;
     color: #6F4A8E;
     font-size: medium;
@@ -71,7 +79,7 @@ input[type=submit], input[type=reset] {
     height: 30px;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color: #C79BD5;
     color: #000000;
     border: 2px solid;
@@ -81,29 +89,26 @@ input[type=reset]:hover {
     background-color: #C79BD5;
     color: #000000;
     border: 2px solid;
-}  
+}
 
 button {
     margin-left: .5em;
 }
 
-.comentarios{
-    
+.comentarios {
     border-top: 1px solid #302384;
-    
     color: #000000;
     font-size: large;
     width: 100%;
     height: 60px;
-    
 }
 
-.circle img{
+.circle img {
     position: relative;
     width: 100%;
     margin-left: 15px;
     margin-top: 4px;
-  }
+}
 
 .circle {
     background-color: #C79BD5;
@@ -115,14 +120,14 @@ button {
     margin: 0px;
     margin-left: 15px;
     margin-top: 4px;
-  }
-.secao{
+}
+
+.secao {
     position: relative;
     font-family: 'Orbitron', sans-serif;
 }
 
-    
-.icone-scroll{
+.icone-scroll {
     position: absolute;
     bottom: 5em;
     width: 50px;
@@ -133,8 +138,8 @@ button {
     margin-left: 35%;
     cursor: pointer;
 }
-    
-.scroll{
+
+.scroll {
     width: 15px;
     height: 15px;
     border-right: 2px solid #fff;
@@ -142,18 +147,18 @@ button {
     display: inline-block;
     position: relative;
 }
-    
+
 .scroll-next {
     transform: rotate(45deg);
     margin: 14px 0 0 16.5px;
 }
 
-p{
+p {
     font-size: x-large;
     font-family: orbitron;
     color: #181818;
 }
 
-#pagina2{
+#pagina2 {
     margin-top: 5px;
 }
