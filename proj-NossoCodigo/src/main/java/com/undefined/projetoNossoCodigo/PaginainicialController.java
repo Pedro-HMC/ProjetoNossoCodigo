@@ -10,5 +10,4 @@ public class PaginainicialController {
     public String paginainicial(){
         return "/Paginainicial";
     }
-   
-  }
+}
