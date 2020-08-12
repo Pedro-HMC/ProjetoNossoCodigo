@@ -143,6 +143,10 @@ div {
     width: 400px;
 }
 
+.feed:hover {
+    transform: scale(1.2);
+}
+
 .secao {
     position: relative;
     font-family: 'Orbitron', sans-serif;
@@ -156,7 +160,7 @@ div {
     background-color: #0E0325;
     border-radius: 50%;
     left: 50%;
-    margin-left: 35%;
+    margin-left: 40%;
     cursor: pointer;
 }
 
@@ -175,6 +179,7 @@ div {
 }
 
 .scroll-top {
+    margin-bottom: 40%;
     transform: rotate(225deg);
     margin: 19px 0 0 17px;
 }
