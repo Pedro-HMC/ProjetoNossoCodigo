@@ -24,6 +24,10 @@ public class exibeCSS {
             "<div class=\"col-sm-10\">" +
             "<p class=\"tag\">Tags:" +
             "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
+            "<a class=\"tag\" href=\"#121\">CSS em linha, </a>" +
+            "<a class=\"tag\" href=\"#122\">CSS Interno, </a>" +
+            "<a class=\"tag\" href=\"#123\">CSS Externo, </a>" +
+            "<a class=\"tag\" href=\"#125\">Efeito Cascata </a>" +
             "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
@@ -44,7 +48,7 @@ public class exibeCSS {
                 "<div class=\"col-sm-1\"></div>" +
                 "<div class=\"col-sm-5 block\">" +
                     "<div class=\"row\">" +
-                        "<h2>"+ cs.getNome()+"</h2>" +
+                        "<div id="+ cs.getId() +"><h2>"+ cs.getNome()+"</h2></div>" +
                     "</div>" +
                     "<div class=\"row\">" +
                         "<div class=\"col codebox block\">" +

@@ -24,6 +24,10 @@ public class exibeCodigos {
             "<div class=\"col-sm-10\">" +
             "<p class=\"tag smooth-scroll list-unstyled\">Tags:" +
             "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
+            "<a class=\"tag\" href=\"#68\">Olá Mundo, </a>" +
+            "<a class=\"tag\" href=\"#90\">Links/Comentários, </a>" +
+            "<a class=\"tag\" href=\"#101\">Tabelas, </a>" +
+            "<a class=\"tag\" href=\"#102\">Formulários </a>" +
             "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
@@ -44,7 +48,7 @@ public class exibeCodigos {
                 "<div class=\"col-sm-1\"></div>" +
                 "<div class=\"col-sm-5 block\">" +
                     "<div class=\"row\">" +
-                        "<h2>"+ t.getNome()+"</h2>" +
+                        "<div id="+ t.getId() +"><h2>"+ t.getNome()+"</h2></div>" +
                     "</div>" +
                     "<div class=\"row\">" +
                         "<div class=\"col codebox block\">" +
