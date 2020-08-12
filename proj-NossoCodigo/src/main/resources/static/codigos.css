@@ -15,6 +15,10 @@
     font-size: 20px;
 }
 
+a {
+    color: white;
+}
+
 .voltar {
     margin-top: 10px;
     margin-left: 60px;
