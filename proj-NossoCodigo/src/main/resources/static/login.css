@@ -18,7 +18,7 @@ background: linear-gradient(0deg, rgba(111,74,142,1) 8%, rgba(111,74,142) 100%);
 
 
 img{
-    height: 110%;
+    height: 100%;
     width: auto;
     margin-left: 10%;
 }
@@ -77,6 +77,8 @@ button {
     position: fixed;
     border-radius: 1em;
     color: white;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 form {
