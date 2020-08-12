@@ -135,13 +135,12 @@ div {
 }
 
 .feed {
-    margin-left: 70%;
-    margin-top: 50px;
+    margin-top: 25%;
     object-fit: cover;
     background-color: #fff;
     border-radius: 100%;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
 }
 
 .secao {
@@ -187,4 +186,9 @@ div {
 
 a {
     color: #000000;
+}
+
+.autores {
+    height: 200px;
+    width: auto;
 }
