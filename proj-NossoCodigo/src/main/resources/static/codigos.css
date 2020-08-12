@@ -102,6 +102,7 @@ input[type=submit]:hover {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .scrollbar-deep-purple::-webkit-scrollbar-track {
