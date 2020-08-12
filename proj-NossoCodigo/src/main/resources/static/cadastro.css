@@ -1,0 +1,89 @@
+html{
+    overflow-x:hidden;
+}
+    
+.body{
+    font-family: Orbitron;
+    background: rgb(211,190,228,1);
+background: linear-gradient(0deg, rgba(111,74,142,1) 8%, rgba(111,74,142) 100%);
+}
+
+.menu {
+    background-color: #601f96;
+    height: 40px;
+    color: #ffffff;
+    width: 100%;
+    font-family: Orbitron;
+}
+
+
+img{
+    height: 110%;
+    width: auto;
+    margin-left: 10%;
+}
+
+
+.formulario {
+    background-color: #6F4A8E;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: Orbitron;
+    
+   
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: black;
+    color: #6F4A8E;
+    font-size: medium;
+    width: 100px;
+    height: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #C79BD5;
+    color: #000000;
+    border: 2px solid;
+}
+
+input[type=reset]:hover {
+    background-color: #C79BD5;
+    color: #000000;
+    border: 2px solid;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.formulario {
+    background-color: #6F4A8E;
+    margin-right: 2px;
+    position: fixed;
+    border-radius: 1em;
+    color: white;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #C4C4C4;
+    border-radius: 1em;
+    margin-bottom: 25px;
+}

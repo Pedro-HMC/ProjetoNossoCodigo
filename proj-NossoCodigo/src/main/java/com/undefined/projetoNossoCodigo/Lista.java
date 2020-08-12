@@ -26,7 +26,7 @@ public class Lista {
                     "</div>" +
         
             "<div class=\"col-sm-5 formulario\">" +
-                    "<div style=\"color: rgb(14, 12, 12); font-size: x-large; padding-top: 8px;\" class=\"col-\">" +
+                    "<div style=\"color:#1f2124; font-size: x-large; padding-top: 8px;\" class=\"col-\">" +
                     " O quê você achou do nosso site? <br>Dê o seu Feedback!" +
                     "</div><br>" +
                     "<div class=\"separacao row\"></div> <br>" +
