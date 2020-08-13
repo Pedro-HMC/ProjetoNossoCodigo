@@ -27,6 +27,9 @@
             <p style="color: #1f2124; font-size: x-large; padding-top: 8px;">Login</p>
             <form name="f" th:action="@{/paginalogin}" class="form" method="post">
                 <fieldset>
+                <div th:if="${param.error}" class="alert alert-error">
+                    Login ou senha inválida.
+                </div>
                 <label for="username">Nome:</label>
                 <input type="text" id="username" name="username"><br><br>
                 <label for="password">Senha:</label>
