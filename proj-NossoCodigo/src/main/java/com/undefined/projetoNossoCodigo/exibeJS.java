@@ -23,7 +23,11 @@ public class exibeJS {
         "<div class=\" row bar \">" + 
             "<div class=\"col-sm-10\">" +
                 "<p class=\"tag\">Tags:" +
-                "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
+                "<a class=\"tag\" href=\"#scroll1\">Novo Código,</a>" +
+                "<a class=\"tag\" href=\"#133\">Variáveis/Tipos de Dados,</a>" +
+                "<a class=\"tag\" href=\"#135\">Operadores,</a>" +
+                "<a class=\"tag\" href=\"#136\">Condicionais(If/Else),</a>" +
+                "<a class=\"tag\" href=\"#137\">Funções</a>" +
                 "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
@@ -44,7 +48,7 @@ public class exibeJS {
                 "<div class=\"col-sm-1\"></div>" +
                 "<div class=\"col-sm-5 block\">" +
                     "<div class=\"row\">" +
-                        "<h2>"+ js.getNome()+"</h2>" +
+                        "<div id="+ js.getId() +"><h2>"+ js.getNome()+"</h2></div>" +
                     "</div>" +
                     "<div class=\"row\">" +
                         "<div class=\"col codebox block\">" +
@@ -76,7 +80,7 @@ public class exibeJS {
                 "<div class=\"col\"></div>"+
             "</div>" + 
             "<br>"
-            ;
+        ;
         }
         html = html + 
         "<div class=\"row\">" +
