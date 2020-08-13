@@ -30,6 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         .antMatchers(HttpMethod.GET, "/nossoCodigo/codigos4").permitAll()
         .antMatchers(HttpMethod.GET, "/guia").permitAll()
         .antMatchers(HttpMethod.GET, "/feedback/").permitAll()
+        .antMatchers(HttpMethod.POST, "/feedback/insere").permitAll()
         .anyRequest().authenticated()
         .and().formLogin().loginPage("/paginalogin").permitAll().usernameParameter("username").passwordParameter("password")
         .and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
