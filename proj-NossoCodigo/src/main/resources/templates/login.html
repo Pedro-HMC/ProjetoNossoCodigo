@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html xmlns:th="https://www.thymeleaf.org" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
@@ -24,7 +24,7 @@
             <div class="pagina row">
                 <div class="col-sm-5 formulario">
                     <p style="color: #1f2124; font-size: x-large; padding-top: 8px;">Login</p>
-                    <form action="@{/login}" class= "form"  method="POST">
+                    <form th:action="@{/login}" class= "form"  method="POST">
                         <label for="username">Nome:</label>
                         <input type="text" id="username" name="username"><br><br>
                         <label for="password">Senha:</label>
