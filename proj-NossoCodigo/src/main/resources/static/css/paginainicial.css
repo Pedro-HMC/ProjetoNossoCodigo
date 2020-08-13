@@ -16,7 +16,6 @@
     margin-left: 0px;
 }
 
-
 .icone {
     width: 4.4vw;
     height: 4.4vw;
@@ -94,14 +93,6 @@ div {
     text-align: justify;
 }
 
-#pagina2 {
-    background-color: #C79BD5;
-}
-
-#pagina3 {
-    background-color: #E5E5E5;
-}
-
 .feed {
     margin-top: 20%;
     object-fit: cover;
@@ -115,7 +106,7 @@ div {
     transform: scale(1.1);
 }
 
-h2{
+h2 {
     margin-top: 10%;
 }
 
@@ -170,22 +161,22 @@ a {
     width: auto;
 }
 
-.donos{
+.donos {
     margin-top: 10%;
 }
 
-.contato{
+.contato {
     background-color: #4B1578;
     height: 350px;
 }
 
-.ctt{
+.ctt {
     font-family: 'Orbitron', sans-serif;
     color: #ffffff;
     margin-left: 8%;
 }
 
-.linkedin{
+.linkedin {
     font-family: 'Orbitron', sans-serif;
     color: #ffffff;
     font-size: 25px;
@@ -193,12 +184,12 @@ a {
     margin-left: 8%;
 }
 
-a{
+a {
     color: #ffffff;
     margin-left: 8%;
 }
 
-.github{
+.github {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
     font-size: 25px;

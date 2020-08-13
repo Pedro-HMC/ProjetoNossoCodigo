@@ -23,8 +23,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().disable().authorizeRequests()
         .antMatchers(HttpMethod.GET, "/").permitAll()
         .antMatchers(HttpMethod.GET, "/inicial").permitAll()
+        .antMatchers(HttpMethod.GET, "/nossoCodigo/codigos5").permitAll()
+        .antMatchers(HttpMethod.GET, "/nossoCodigo/codigos1").permitAll()
+        .antMatchers(HttpMethod.GET, "/nossoCodigo/codigos2").permitAll()
+        .antMatchers(HttpMethod.GET, "/nossoCodigo/codigos3").permitAll()
+        .antMatchers(HttpMethod.GET, "/guia").permitAll()
+        .antMatchers(HttpMethod.GET, "/feedback/").permitAll()
         .anyRequest().authenticated()
-        .and().formLogin().permitAll()
+        .and().formLogin().loginPage("/paginalogin").permitAll().usernameParameter("username").passwordParameter("password")
         .and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
     }
 

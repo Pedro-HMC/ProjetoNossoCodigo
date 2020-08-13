@@ -21,29 +21,31 @@
             </div>
         </div>
     </div>
-            
-            <div class="pagina row">
-                <div class="col-sm-5 formulario">
-                    <p style="color: #1f2124; font-size: x-large; padding-top: 8px;">Login</p>
-                    <form th:action="@{/login}" class= "form"  method="POST">
-                        <label for="username">Nome:</label>
-                        <input type="text" id="username" name="username"><br><br>
-                        <label for="password">Senha:</label>
-                        <input type="text" id="password" name="password"><br><br>
-                        <p><input type="submit" value="Enviar" /> <input type="reset" value="Limpar" /></p>
-                    </form>
-                </div>
 
-                <div class="col figura">
-                    <img src="/img/mobilelogin.gif">
-            
-                </div>
-                
-            </div>
-                <div class= "end">
-                    <p style= "margin-left: 20px; margin-top:3px;"> Fazer Cadastro</p>
-                </div>
-            
+    <div class="pagina row">
+        <div class="col-sm-5 formulario">
+            <p style="color: #1f2124; font-size: x-large; padding-top: 8px;">Login</p>
+            <form name="f" th:action="@{/login}" class="form" method="post">
+                <fieldset>
+                <label for="username">Nome:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <p><input type="submit" value="Enviar" /> <input type="reset" value="Limpar" /></p>
+            </fieldset>
+            </form>
+        </div>
+
+        <div class="col figura">
+            <img src="/img/mobilelogin.gif">
+
+        </div>
+
+    </div>
+    <div class="end">
+        <p style="margin-left: 100px; margin-top:3px; "><a style="color: white;" href="/cadastro"> Fazer Cadastro</a></p>
+    </div>
+
 
 </body>
 
