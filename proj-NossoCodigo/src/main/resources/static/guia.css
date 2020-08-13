@@ -1,0 +1,44 @@
+.guia{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #4B1578;
+    color: #ffffff;
+}
+
+#rectangle{
+    width:550px;
+    height: 800px;
+    background:#CBB4DE;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.voltar{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sai{
+    color: #ffffff;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+a{
+    color: #4B1578;
+    font-size: 20px;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}
