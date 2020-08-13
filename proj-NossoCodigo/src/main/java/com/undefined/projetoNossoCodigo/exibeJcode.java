@@ -27,7 +27,7 @@ public class exibeJcode {
             "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
-                "<p class=\"voltar\">Voltar</p>" +
+                "<p class=\"voltar\"><a href=\"/inicial\">Voltar</a></p>" +
             "</div>" +
         "</div>" +
         "<div class=\"row\">" +

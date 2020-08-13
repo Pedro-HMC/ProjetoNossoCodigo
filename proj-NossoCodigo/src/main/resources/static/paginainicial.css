@@ -16,9 +16,6 @@
     margin-left: 0px;
 }
 
-p:hover{
-    transform: scale(1.2);
-}
 
 .icone {
     width: 4.4vw;
@@ -114,6 +111,14 @@ div {
     width: 350px;
 }
 
+.feed:hover {
+    transform: scale(1.1);
+}
+
+h2{
+    margin-top: 10%;
+}
+
 .secao {
     position: relative;
     font-family: 'Orbitron', sans-serif;
@@ -127,7 +132,7 @@ div {
     background-color: #0E0325;
     border-radius: 50%;
     left: 50%;
-    margin-left: 35%;
+    margin-left: 40%;
     cursor: pointer;
 }
 
@@ -146,6 +151,7 @@ div {
 }
 
 .scroll-top {
+    margin-bottom: 40%;
     transform: rotate(225deg);
     margin: 19px 0 0 17px;
 }
@@ -162,4 +168,39 @@ a {
 .autores {
     height: 200px;
     width: auto;
+}
+
+.donos{
+    margin-top: 10%;
+}
+
+.contato{
+    background-color: #4B1578;
+    height: 350px;
+}
+
+.ctt{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    margin-left: 8%;
+}
+
+.linkedin{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 70%;
+    margin-left: 8%;
+}
+
+a{
+    color: #ffffff;
+    margin-left: 8%;
+}
+
+.github{
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    margin-top: 12%;
 }

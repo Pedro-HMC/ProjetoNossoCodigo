@@ -17,7 +17,7 @@ public class Lista {
         "<div class=\"menu\">" +
             "<div style=\"margin-bottom:10px;\" class=\" row\">" +
                 "<div class=\"col-sm-1\"></div>" +
-                "<div class=\"col-sm-2\">Voltar</div>" +
+                "<div class=\"col-sm-2\"><a style=\"color:white;\" href=\"/inicial\">Voltar</a></div>" +
             "</div>" +
         "</div>"+
             "<div class=\"feedback row\">" +
