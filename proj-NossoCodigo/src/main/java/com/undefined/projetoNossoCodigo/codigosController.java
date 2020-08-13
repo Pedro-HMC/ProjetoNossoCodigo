@@ -148,17 +148,5 @@ public class codigosController {
         return exibeMySQL.mostraSQL(mySQLRepository.findAll());
     }
 
-    @Configuration
-    @EnableWebSecurity
-    public class SecurityConfig extends WebSecurityConfigurerAdapter {
-
-    @Override
-    protected void configure(HttpSecurity security) throws Exception
-    {
-     security.httpBasic().disable();
-     security.csrf().disable();
-    }
     
-}
-
 }

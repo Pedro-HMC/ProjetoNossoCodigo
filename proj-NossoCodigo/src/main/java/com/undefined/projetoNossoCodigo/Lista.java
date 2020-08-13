@@ -5,7 +5,7 @@ public class Lista {
         String html = "<head>" +
         "<meta charset=\"UTF-8\">" +
         "<title>Feedback</title>" +
-        "<link rel=\"stylesheet\" href=\"/feedback.css\">" +
+        "<link rel=\"stylesheet\" href=\"/css/feedback.css\">" +
         "<link rel=\"shortcut icon\" href=\"./frame_5.ico\" type=\"image/x-icon\">" +
        " <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">" +
        " <link href=\"https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap\" rel=\"stylesheet\">"+
@@ -22,7 +22,7 @@ public class Lista {
         "</div>"+
             "<div class=\"feedback row\">" +
                     "<div class=\"col-sm-6\">"+
-                        "<img src=\"/feedback.png\">"+
+                        "<img src=\"/img/feedback.png\">"+
                     "</div>" +
         
             "<div class=\"col-sm-5 formulario\">" +
@@ -64,7 +64,7 @@ public class Lista {
                 html = html + 
                     "<div id=\"pagina2\" class= \"comentarios row\">"+
                             "<div class=\"col-sm-1\">"+
-                                "<img class=\"circle\" src=\"/incognito.png\">"+
+                                "<img class=\"circle\" src=\"/img/incognito.png\">"+
                             "</div>"+
                             "<div class=\"col-sm-11\">"+
                                 "<div style=\"font-size:20px;\" class= \"row\">"+
