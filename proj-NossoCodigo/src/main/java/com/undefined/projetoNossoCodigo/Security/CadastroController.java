@@ -1,4 +1,4 @@
-package com.undefined.projetoNossoCodigo;
+package com.undefined.projetoNossoCodigo.Security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,9 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class CadastroController {
 
     @Autowired
-    private CadastroRepository cadastroRepository;
-    private Usuario lista = new Usuario();
-
+    private UsuarioRepository usuarioRepository;
+    
     @GetMapping("/cadastro")
     public String cadastro(){
       return "cadastro";
@@ -23,30 +22,20 @@ public class CadastroController {
 
     @PostMapping(path="/insere") // Map ONLY POST Requests
     public @ResponseBody String addNewUsuario (
-         @RequestParam String nome
-        ,@RequestParam Integer senha
+         @RequestParam String login
+        ,@RequestParam String senha
         ,@RequestParam String email
         ) {
 
-            Cadastro c = new Cadastro();
+            Usuario u = new Usuario();
 
-            c.setNome(nome);
-            c.setSenha(senha);
-            c.setEmail(email);
+            u.setLogin(login);
+            u.setSenha(senha);
+            u.setEmail(email);
 
-            cadastroRepository.save(c);
+            usuarioRepository.save(u);
             
             return "login";
     }
-
-    @GetMapping(path="/lista")
-    public @ResponseBody String getAllUsuario() {
-
-      Iterable<Cadastro> resultado = cadastroRepository.findAll();
-      
-      return lista.listaUsuario(resultado);
-    }
-
-   
 
 }
