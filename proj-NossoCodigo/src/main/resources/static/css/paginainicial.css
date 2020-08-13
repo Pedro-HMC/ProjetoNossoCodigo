@@ -16,45 +16,13 @@
     margin-left: 0px;
 }
 
+
 .icone {
     width: 4.4vw;
     height: 4.4vw;
 }
 
 .icone:hover {
-    transform: scale(1.2);
-}
-
-.html {
-    width: 30%;
-    scroll-behavior: smooth;
-}
-
-.html:hover {
-    transform: scale(1.2);
-}
-
-.java {
-    width: 30%;
-}
-
-.java:hover {
-    transform: scale(1.2);
-}
-
-.javascript {
-    width: 30%;
-}
-
-.javascript:hover {
-    transform: scale(1.2);
-}
-
-.sql {
-    width: 30%;
-}
-
-.sql:hover {
     transform: scale(1.2);
 }
 
@@ -135,16 +103,20 @@ div {
 }
 
 .feed {
-    margin-top: 25%;
+    margin-top: 20%;
     object-fit: cover;
     background-color: #fff;
     border-radius: 100%;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 
 .feed:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+h2{
+    margin-top: 10%;
 }
 
 .secao {
@@ -196,4 +168,39 @@ a {
 .autores {
     height: 200px;
     width: auto;
+}
+
+.donos{
+    margin-top: 10%;
+}
+
+.contato{
+    background-color: #4B1578;
+    height: 350px;
+}
+
+.ctt{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    margin-left: 8%;
+}
+
+.linkedin{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 70%;
+    margin-left: 8%;
+}
+
+a{
+    color: #ffffff;
+    margin-left: 8%;
+}
+
+.github{
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    margin-top: 12%;
 }

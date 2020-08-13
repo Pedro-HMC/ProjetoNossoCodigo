@@ -23,7 +23,11 @@ public class exibeJcode {
         "<div class=\" row bar \">" + 
             "<div class=\"col-sm-10\">" +
             "<p class=\"tag\">Tags:" +
-            "<a class=\"tag\" href=\"#scroll1\">Novo Código, </a>" +
+            "<a class=\"tag\" href=\"#scroll1\">Novo Código,</a>" +
+            "<a class=\"tag\" href=\"#126\">Classes, </a>" +
+            "<a class=\"tag\" href=\"#127\">Variáveis e Tipos de dados, </a>" +
+            "<a class=\"tag\" href=\"#128\">Objetos, </a>" +
+            "<a class=\"tag\" href=\"#129\">Get/Set </a>" +
             "</p>" +
             "</div>" +
             "<div class=\"col-sm-2\">" +
@@ -44,7 +48,7 @@ public class exibeJcode {
                 "<div class=\"col-sm-1\"></div>" +
                 "<div class=\"col-sm-5 block\">" +
                     "<div class=\"row\">" +
-                        "<h2>"+ j.getNome()+"</h2>" +
+                        "<div id="+ j.getId() +"><h2>"+ j.getNome()+"</h2></div>" +
                     "</div>" +
                     "<div class=\"row\">" +
                         "<div class=\"col codebox block\">" +
