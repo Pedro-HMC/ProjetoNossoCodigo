@@ -16,7 +16,7 @@ public class CadastroController {
     private CadastroRepository cadastroRepository;
     private Usuario lista = new Usuario();
 
-    @GetMapping("")
+    @GetMapping("/cadastro")
     public String cadastro(){
       return "cadastro";
     }
